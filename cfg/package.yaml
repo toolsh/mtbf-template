@@ -1,0 +1,17 @@
+---
+browser:       com.android.browser            | com.android.browser.BrowserActivity
+calendar:      com.google.android.calendar    | com.android.calendar.AllInOneActivity
+camera:        com.tct.camera                 | com.android.camera.CameraLauncher
+clock:         com.google.android.deskclock   | com.android.deskclock.DeskClock
+contact:       com.android.contacts           | com.android.contacts.activities.PeopleActivity
+dialer:        com.android.dialer             | .DialtactsActivity
+email:         com.tct.email                  | com.tct.email.activity.Welcome
+filemanager:   com.jrdcom.filemanager         | .activity.FileBrowserActivity
+gallery:       com.tct.gallery3d              |
+launcher:      com.tct.launcher               |
+messaging:     com.android.mms                | com.android.mms.ui.ConversationList
+music:         com.alcatel.music5             | .activities.MusicPlayerActivity
+photo:         com.google.android.apps.photos |
+setting:       com.android.settings           | com.android.settings.Settings
+soundrecorder: com.tct.soundrecorder          | com.tct.soundrecorder.SoundRecorder
+storefront:    com.android.vending            | com.android.vending.AssetBrowserActivity

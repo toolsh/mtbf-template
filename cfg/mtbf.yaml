@@ -1,0 +1,86 @@
+---
+Testing:
+    operator: att
+    network_type: 3GLTE
+    network_switch: false
+    test_lib: mtbf-att
+    test_type: mini
+    log_type: none
+    recovery: true
+    stop_when_tc_fail: false
+    email_notification: true
+    skip_warning: true
+    acknowledged_risks: true
+
+Path:
+    workspace: workspace
+    screendump: screendump
+    tempdump: tempdump
+
+MDevice:
+    phone: 4042269583
+    serialno:
+    port: 2828
+    logcat: true
+    imei1:
+    imei2:
+
+SDevice:
+    phone: 4042269583
+    serialno:
+    port: 2828
+    logcat: true
+    imei1:
+    imei2:
+
+WiFi:
+    ssid: Stability
+    password: 12345678
+
+Messaging:
+    recipient: 4042422096
+
+Email:
+    hotmail:
+        name:
+        email:
+        password:
+
+    gmail:
+        name:
+        email:
+        password:
+
+    yahoo:
+        name:
+        email:
+        password:
+
+    smtp:
+        name:
+        email:
+        password:
+        smtp_hostname:
+        smtp_port:
+
+    recipient:
+        name:
+        email: alcastable.one@gmail.com
+
+Storefront:
+    app: Temperature Free
+    pkg: com.speedymarks.android.temperatureFree
+
+MultiMedia:
+    thumb_path: /sdcard/DCIM/.thumbnails
+    video_type: mp4
+    video_path: /sdcard/DCIM/Camera
+    video_time: 30
+    photo_type: jpg
+    photo_path: /sdcard/DCIM/Camera
+    audio_type: m4a
+    audio_path: /sdcard/Recording
+    audio_time: 5
+    stream_url: http://qthttp.apple.com.edgesuite.net/1010qwoeiuryfg/sl.m3u8
+    streamtime: 10.1
+    music_time: 15.2

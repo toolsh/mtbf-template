@@ -1,0 +1,29 @@
+---
+uiautomator:
+    mdevice:
+    madb:
+    sdevice:
+    sadb:
+
+testcase:
+    telephony:
+    messaging:
+    email:
+    browser:
+    storefront:
+    pim:
+    multimedia:
+    multitasking:
+    menunavigation:
+    wifi:
+    nfc:
+    volte:
+    smsoverip:
+
+yaml:
+    requirement:
+    mtbf:
+    endurance:
+    testing:
+    app:
+    package:

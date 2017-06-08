@@ -1,0 +1,89 @@
+!!python/object:__main__.YML
+_file: !!python/object:__builtin__.file {}
+_yml:
+  testcase: {browser: null, email: null, menunavigation: null, messaging: null, multimedia: null,
+    multitasking: null, nfc: null, pim: null, smsoverip: null, storefront: null, telephony: null,
+    volte: null, wifi: null}
+  uiautomator: {madb: null, mdevice: null, sadb: null, sdevice: null}
+  yaml:
+    app: !!python/object:__main__.YML
+      _file: !!python/object:__builtin__.file {}
+      _yml:
+        Apps: {Amazon: com.amazon.mShop.android, Boost: com.tct.onetouchbooster, Browser: com.android.browser,
+          Calculator: com.tct.calculator, Calendar: com.google.android.calendar, Call: com.android.dialer,
+          Camera: com.tct.camera, Candy Crush Jelly: com.king.candycrushjellysaga,
+          Chrome: com.android.chrome, Clock: com.google.android.deskclock, Compass: com.jrdcom.compass,
+          Contacts: com.android.contacts, Cookie Jam: air.com.sgn.cookiejam.gp, Cricket Rewards: com.cricketwireless.cricketrewards,
+          Deezer: deezer.android.app, Downloads: com.android.documentsui, Drive: com.google.android.apps.docs,
+          Email: com.tct.email, Farm Heroes Saga: com.king.farmheroessaga, Feedback: com.tct.endusertest,
+          Files: com.jrdcom.filemanager, Fyuse: com.fyusion.miniSocial, Gallery: com.tct.gallery3d,
+          Gmail: com.google.android.gm, Go Security: com.jb.security, Google: com.google.android.googlequicksearchbox,
+          Google+: com.google.android.apps.plus, Hangouts: com.google.android.talk,
+          Juice Jam: air.com.sgn.juicejam.gp, Keep: com.google.android.keep, Littlstar: com.littlstar.android,
+          Maps: com.google.android.apps.maps, Messaging: com.android.mms, Music: com.alcatel.music5,
+          News & Weather: com.google.android.apps.genie.geniewidget, PSafe Total: com.psafe.msuite,
+          Panda Pop: com.sgn.pandapop.gp, Pet Rescue Saga: com.king.petrescuesaga,
+          Photos: com.google.android.apps.photos, Play Books: com.google.android.apps.books,
+          Play Games: com.google.android.play.games, Play Movies & TV: com.google.android.videos,
+          Play Music: com.google.android.music, Play Newsstand: com.google.android.apps.magazines,
+          Play Store: com.android.vending, Radio: com.tct.fmradio, Safe Guard: com.jrdcom.jrdlogger,
+          Settings: com.android.settings, Shazam: com.shazam.android, ShellMS: com.android.shellms,
+          Sound Recorder: com.tct.soundrecorder, TiZR Lifecasting: com.app_tizr.app,
+          Updates: com.tcl.ota, VR Hub: com.nibiru.tcl.vrstore, VR Launcher: com.nibiru.tcl.launcher,
+          VR Store: com.nibiru.tcl.vrstore, Visual Voicemail: com.mizmowireless.vvm,
+          Voice Search: com.google.android.googlequicksearchbox, WPS Office: cn.wps.moffice_eng,
+          Waves MaxxAudio: com.waves.maxxaudio, Weather: com.tct.weather, WhatsApp: com.whatsapp,
+          Wi-Fi Display: com.android.settings, YouTube: com.google.android.youtube,
+          myCricket: com.mizmowireless.acctmgt}
+        IgnoreList: {asphalt0: Asphalt 0, candy_crush_jelly: Candy Crush Jelly, clean_master: Clean
+            Master, cookie_jam: Cookie Jam, empire: Empire, farm_heroes_saga: Farm
+            Heroes Saga, game_of_war: Game of War, genies_gems: Genies & Gems, juice_jam: Juice
+            Jam, mobile_strike: Mobile Strike, panda_pop: Panda Pop, pet_rescue_saga: Pet
+            Rescue Saga, sim_toolkit: SIM Toolkit, smart_suite: Smart Suite}
+    endurance: !!python/object:__main__.YML
+      _file: !!python/object:__builtin__.file {}
+      _yml: null
+    mtbf: !!python/object:__main__.YML
+      _file: !!python/object:__builtin__.file {}
+      _yml:
+        Email:
+          gmail: {email: null, name: null, password: null}
+          hotmail: {email: null, name: null, password: null}
+          recipient: {email: alcastable.one@gmail.com, name: null}
+          smtp: {email: null, name: null, password: null, smtp_hostname: null, smtp_port: null}
+          yahoo: {email: null, name: null, password: null}
+        MDevice: {imei1: null, imei2: null, logcat: true, phone: 4042269583, port: 2828,
+          serialno: null}
+        Messaging: {recipient: 4042422096}
+        MultiMedia: {audio_path: /sdcard/Recording, audio_time: 5, audio_type: m4a,
+          music_time: 15.2, photo_path: /sdcard/DCIM/Camera, photo_type: jpg, stream_url: 'http://qthttp.apple.com.edgesuite.net/1010qwoeiuryfg/sl.m3u8',
+          streamtime: 10.1, thumb_path: /sdcard/DCIM/.thumbnails, video_path: /sdcard/DCIM/Camera,
+          video_time: 30, video_type: mp4}
+        Path: {screendump: screendump, tempdump: tempdump, workspace: workspace}
+        SDevice: {imei1: null, imei2: null, logcat: true, phone: 4042269583, port: 2828,
+          serialno: null}
+        Storefront: {app: Temperature Free, pkg: com.speedymarks.android.temperatureFree}
+        Testing: {acknowledged_risks: true, email_notification: true, log_type: none,
+          network_switch: false, network_type: 3GLTE, operator: att, recovery: true,
+          skip_warning: true, stop_when_tc_fail: false, test_lib: mtbf-att, test_type: mini}
+        WiFi: {password: 12345678, ssid: Stability}
+    package: !!python/object:__main__.YML
+      _file: !!python/object:__builtin__.file {}
+      _yml: {browser: com.android.browser            | com.android.browser.BrowserActivity,
+        calendar: com.google.android.calendar    | com.android.calendar.AllInOneActivity,
+        camera: com.tct.camera                 | com.android.camera.CameraLauncher,
+        clock: com.google.android.deskclock   | com.android.deskclock.DeskClock, contact: com.android.contacts           |
+          com.android.contacts.activities.PeopleActivity, dialer: com.android.dialer             |
+          .DialtactsActivity, email: com.tct.email                  | com.tct.email.activity.Welcome,
+        filemanager: com.jrdcom.filemanager         | .activity.FileBrowserActivity,
+        gallery: com.tct.gallery3d              |, launcher: com.tct.launcher               |,
+        messaging: com.android.mms                | com.android.mms.ui.ConversationList,
+        music: com.alcatel.music5             | .activities.MusicPlayerActivity, photo: com.google.android.apps.photos
+          |, setting: com.android.settings           | com.android.settings.Settings,
+        soundrecorder: com.tct.soundrecorder          | com.tct.soundrecorder.SoundRecorder,
+        storefront: com.android.vending            | com.android.vending.AssetBrowserActivity}
+    req-mtbf-att: !!python/object:__main__.YML
+      _file: !!python/object:__builtin__.file {}
+      _yml: null
+    requirement: null
+    testing: null

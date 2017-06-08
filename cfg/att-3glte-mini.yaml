@@ -1,0 +1,97 @@
+---
+Telephony:
+    Contacts3G:        1
+    Contacts3GLTE:     1
+    History3G:         1
+    History3GLTE:      1
+    CallReceive:       1
+    ContactsAdd:       1
+    ContactsDel:       1
+
+Messaging:
+    Text3G:            1
+    Photo3G:           1
+    Audio3G:           1
+    Video3G:           1
+    TextLTE:           1
+    PhotoLTE:          1
+    AudioLTE:          1
+    VideoLTE:          1
+    TextOpen:          1
+    PhotoOpen:         1
+    AudioOpen:         1
+    VideoOpen:         1
+
+Email:
+    Send3G0:           1
+    SendLTE0:          1
+    Send3G1:           1
+    SendLTE1:          1
+    Open0:             1
+    Open1:             1
+
+Browser:
+    ATT3G:             1
+    ATTLTE:            1
+    Link3G:            1
+    LinkLTE:           1
+    Top3G:             1
+    TopLTE:            1
+
+Storefront:
+    OpenClose:         1
+    Download3G:        1
+    DownloadLTE:       1
+    StoreClose:        1
+
+PIM:
+    CalendarAdd:       1
+    CalendarDel:       1
+    AlarmAdd:          1
+    AlarmDel:          1
+
+MultiMedia:
+    VideoRecord:       1
+    VideoPlayback:     1
+    VideoDelete:       1
+    PhotoCapture:      1
+    PhotoOpen:         1
+    PhotoDelete:       1
+    AudioRecord:       1
+    AudioPlayback:     1
+    AudioDelete:       1
+    VideoStream:       1
+    MusicOpenClose:    1
+    MusicPlay:         1
+    MusicClose:        1
+
+MultiTasking:
+    CallPlace:         1
+    CallTask:          5
+    CallEnd:           1
+    BrowserOpen:       1
+    BrowserTask:       5
+    BrowserClose:      1
+
+MenuNavigation:
+    Folders:           17
+    Homescreen:        11
+    Apptray:           50
+
+WiFi:
+    OnOff:             3
+    Connect:           3
+
+NFC:
+    OnOff:             1
+
+VoLTE:
+    ContactsVoLTE:     1
+    HistoryVoLTE:      1
+    CallReceiveVoLTE:  1
+
+SMSOverIP:
+    Text3G:            1
+    TextLTE:           1
+    Photo3G:           1
+    PhotoLTE:          1

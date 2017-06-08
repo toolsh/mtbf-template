@@ -1,0 +1,97 @@
+---
+Telephony:
+    Contacts3G:        20
+    Contacts3GLTE:     60
+    History3G:         20
+    History3GLTE:      60
+    CallReceive:       100
+    ContactsAdd:       20
+    ContactsDel:       20
+
+Messaging:
+    Text3G:            20
+    Photo3G:           20
+    Audio3G:           20
+    Video3G:           20
+    TextLTE:           30
+    PhotoLTE:          30
+    AudioLTE:          30
+    VideoLTE:          30
+    TextOpen:          50
+    PhotoOpen:         50
+    AudioOpen:         50
+    VideoOpen:         50
+
+Email:
+    Send3G0:           20
+    SendLTE0:          30
+    Send3G1:           20
+    SendLTE1:          30
+    Open0:             25
+    Open1:             25
+
+Browser:
+    ATT3G:             20
+    ATTLTE:            30
+    Link3G:            20
+    LinkLTE:           30
+    Top3G:             4
+    TopLTE:            6
+
+Storefront:
+    OpenClose:         20
+    Download3G:        4
+    DownloadLTE:       6
+    StoreClose:        1
+
+PIM:
+    CalendarAdd:       5
+    CalendarDel:       5
+    AlarmAdd:          1
+    AlarmDel:          1
+
+MultiMedia:
+    VideoRecord:       1
+    VideoPlayback:     1
+    VideoDelete:       1
+    PhotoCapture:      20
+    PhotoOpen:         20
+    PhotoDelete:       20
+    AudioRecord:       1
+    AudioPlayback:     1
+    AudioDelete:       1
+    VideoStream:       10
+    MusicOpenClose:    20
+    MusicPlay:         50
+    MusicClose:        1
+
+MultiTasking:
+    CallPlace:         1
+    CallTask:          50
+    CallEnd:           1
+    BrowserOpen:       1
+    BrowserTask:       50
+    BrowserClose:      1
+
+MenuNavigation:
+    Folders:           17
+    Homescreen:        11
+    Apptray:           50
+
+WiFi:
+    OnOff:             20
+    Connect:           20
+
+NFC:
+    OnOff:             20
+
+VoLTE:
+    ContactsVoLTE:     100
+    HistoryVoLTE:      100
+    CallReceiveVoLTE:  100
+
+SMSOverIP:
+    Text3G:            50
+    TextLTE:           50
+    Photo3G:           40
+    PhotoLTE:          40
